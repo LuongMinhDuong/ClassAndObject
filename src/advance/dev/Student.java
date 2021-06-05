@@ -6,7 +6,7 @@ public class Student {
 	public String address;
 	public int number;
 	public float markAverage;
-	public Student(String name, int age, String address, int number, float markAverage) {
+	public Student(String name, int age, String address, String number, float markAverage) {
 		super();
 		this.name = name;
 		this.age = age;
