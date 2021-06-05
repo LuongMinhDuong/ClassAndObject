@@ -23,7 +23,7 @@ public class MainApp{
 	}
 	static void print(Student[] stu) {
 		for (int i = 0; i < 10; i++) {
-			String str = String.format("Ten: %s, Tuoi: %d, DiaChi: %s, SDT: %s, diemTb: %f", stu[i].name,stu[i].age,stu[i].address,stu[i].number,stu[i].markAverage);
+			String str = String.format("Ten sinh vien: %s, Tuoi: %d, Dia chi: %s, So dien thoai: %s, Diem TB: %f", stu[i].name,stu[i].age,stu[i].address,stu[i].number,stu[i].markAverage);
 			System.out.println(str);
 		}
 	}
