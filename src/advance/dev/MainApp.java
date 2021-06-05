@@ -13,7 +13,7 @@ public class MainApp{
 			System.out.println("Nhap vao dia chi:");
 			String address = sc.next();
 			System.out.println("Nhap vao so dien thoai:");
-			int number = sc.nextInt();
+			String number = sc.next();
 			System.out.println("Nhap vao diem trung binh = ");
 			float markAverage = sc.nextFloat();
 			Student std = new Student(name, age, address, number, markAverage);	
