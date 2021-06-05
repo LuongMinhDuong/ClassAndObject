@@ -9,7 +9,7 @@ public class MainApp{
 			System.out.println("Nhap vao ten sinh vien: ");
 			String name = sc.next();
 			System.out.println("Nhap vao tuoi:");
-			int age = sc.nextByte();
+			int age = sc.nextInt();
 			System.out.println("Nhap vao dia chi:");
 			String address = sc.next();
 			System.out.println("Nhap vao so dien thoai:");
